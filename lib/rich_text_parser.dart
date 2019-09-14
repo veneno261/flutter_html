@@ -858,7 +858,7 @@ class HtmlRichTextParser extends StatelessWidget {
               child: RichText(
                 text: TextSpan(
                   text: '$leadingChar  ',
-                  style: leadingChar.contains('•') ? TextStyle(color: Colors.green, fontSize: 20) : DefaultTextStyle.of(buildContext).style,
+                  style: leadingChar.contains('•') ? TextStyle(color: Color(0xff10a594), fontSize: 20) : DefaultTextStyle.of(buildContext).style,
                   children: <TextSpan>[
                     TextSpan(text: '', style: nextContext.childStyle)
                   ],
